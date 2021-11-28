@@ -1,0 +1,23 @@
+{
+    "name": "murilo-perosa/telegram-reports",
+    "description": "Package to send application reports using Telegram.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MuriloPerosa\\TelegramReports\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Murilo Perosa",
+            "email": "perosamurilo@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "require": {
+        "telegram-bot/api": "^2.3"
+    }
+}
